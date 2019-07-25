@@ -1,8 +1,26 @@
 #!/bin/bash
 
-cd ~/Programming/Facial\ Haac/haar_knn/
-/usr/local/bin/python3.7 "/Users/roshan/Programming/Facial HAAC/haar_knn/main.py"
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
-cd ~/Programming/Facial\ Haac/ImageResizer/
-/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java -Dfile.encoding=UTF-8 -jar "/Users/roshan/Programming/Facial HAAC/ImageResizer/out/artifacts/ImageResizer_jar/ImageResizer.jar"
+Images="$DIR/Images/"
 
+for file in "$Images"*;
+do 
+	echo "line 1"
+   	echo $file
+   	echo "line 2"
+	echo $DIR/In/
+	echo "line 3"
+	cp $file $DIR/In/original.jpg
+	ls $DIR/In/
+	echo "line 4"
+	sh $DIR/compress
+	wait
+	echo "line 6"
+	
+done
+
+# for entry in "$DIR/Images"/;
+# do
+#   echo "$entry"
+# done
