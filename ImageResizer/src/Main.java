@@ -54,7 +54,8 @@ public class Main {
 
 //            display(original, "original");
 //            display(preprocessed, "processed");
-            writeImage(preprocessed, previousDirectory() + "Out/processed");
+            writeImage(preprocessed, previousDirectory() + "Out/processed" +
+                    new File(previousDirectory() + "Out/").listFiles().length);
 
         } catch (IOException e) {
             e.printStackTrace();

@@ -4,23 +4,13 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 Images="$DIR/Images/"
 
-for file in "$Images"*;
-do 
-	echo "line 1"
-   	echo $file
-   	echo "line 2"
-	echo $DIR/In/
-	echo "line 3"
-	cp $file $DIR/In/original.jpg
-	ls $DIR/In/
-	echo "line 4"
-	sh $DIR/compress
-	wait
-	echo "line 6"
-	
-done
-
-# for entry in "$DIR/Images"/;
-# do
-#   echo "$entry"
+# for file in "$Images"*;
+# do 
+# 	cp $file $DIR/In/original.jpg
+# 	sh $DIR/compress
+# 	wait
 # done
+
+cd $DIR/ImageFileAnalyzer/
+/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=51279:/Applications/IntelliJ IDEA.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath $DIR/ImageFileAnalyzer/out/production/ImageFileAnalyzer Analyzer
+wait
