@@ -149,6 +149,9 @@ def get_most_accurate(images_to_compare, image_dataset):
 def get_k_most_accurate(images_to_compare, image_dataset, k):
     out = []
 
+    if len(images_to_compare) == 0 and i != k - 1:
+        print("not enough roi for given Haar Cascade and corresponding feature")
+
     for i in range(k):
         most_accurate = get_most_accurate(images_to_compare, image_dataset)
         out.append(most_accurate)

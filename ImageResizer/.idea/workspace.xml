@@ -7,14 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e98825d-a071-41de-ae82-3abe78fe4d5f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ConvolutionFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConvolutionKernel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageFileAnalyzer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ImageFileAnalyzer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageFileAnalyzer/out.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../ImageFileAnalyzer/out.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageFileAnalyzer/out/production/ImageFileAnalyzer/Analyzer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ImageFileAnalyzer/out/production/ImageFileAnalyzer/Analyzer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageFileAnalyzer/src/Analyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ImageFileAnalyzer/src/Analyzer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ImageResizer_jar/ImageResizer.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ImageResizer_jar/ImageResizer.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ImageResizer/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ImageResizer/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../In/original.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../In/original.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Out/processed.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exec" beforeDir="false" afterPath="$PROJECT_DIR$/../exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../haar_knn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../haar_knn/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../haar_knn/features.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../haar_knn/features.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../haar_knn/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../haar_knn/main.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,20 +97,35 @@
     <session id="1796159821">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.18" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="52" />
+          <entry key="java" value="3512" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="52" />
+          <entry key="JAVA" value="3512" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -113,11 +135,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="106" selection-start-line="106" selection-end-line="106" />
+            <state relative-caret-position="225">
+              <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,10 +150,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Resizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
+            <state relative-caret-position="645">
+              <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Tester.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ConvolutionKernel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+              <folding>
+                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#670#671#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,6 +206,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/Resizer.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/ConvolutionKernel.java" />
+        <option value="$PROJECT_DIR$/src/ConvolutionFilter.java" />
+        <option value="$PROJECT_DIR$/src/Tester.java" />
       </list>
     </option>
   </component>
@@ -168,9 +218,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -178,6 +228,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -200,14 +252,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564004188774" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564682107283" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -233,9 +283,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JAR Application.ImageResizerJar">
+  <component name="RunManager" selected="Application.Tester">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ImageResizer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tester" />
       <module name="ImageResizer" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -254,9 +311,11 @@
     <list>
       <item itemvalue="JAR Application.ImageResizerJar" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Tester" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Tester" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -282,17 +341,22 @@
       <workItem from="1564078971716" duration="1034000" />
       <workItem from="1564080422296" duration="1155000" />
       <workItem from="1564208144073" duration="25000" />
+      <workItem from="1564300868470" duration="467000" />
+      <workItem from="1564348681945" duration="7000" />
+      <workItem from="1564434106792" duration="3251000" />
+      <workItem from="1564631442057" duration="601000" />
+      <workItem from="1564681809628" duration="297000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22409000" />
+    <option name="totallyTimeSpent" value="27032000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49823943" visible="true" weight="0.16738197" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49823943" visible="true" weight="0.098712444" />
       <window_info id="Structure" order="1" sideWeight="0.50176054" side_tool="true" weight="0.15164521" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -301,7 +365,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50176054" side_tool="true" weight="0.15164521" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2970297" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24291497" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39979756" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -335,8 +399,8 @@
     <entry file="file://$PROJECT_DIR$/src/ImageAnalyzer.java" />
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        <state relative-caret-position="225">
+          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -345,8 +409,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Resizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
+        <state relative-caret-position="645">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ConvolutionKernel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+          <folding>
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ConvolutionFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="54" column="15" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -34,6 +34,10 @@ public class Main {
             BufferedImage original = ImageIO.read(new File(inDirectory() + "original.jpg"));
             BufferedImage preprocessed = new Resizer(original, 90, 45).getResized();
 
+
+
+
+
             int featureI = 0;
             int faceI = 0;
             for (int[] feature : FEATURES) {
@@ -54,6 +58,9 @@ public class Main {
 
 //            display(original, "original");
 //            display(preprocessed, "processed");
+
+
+
             writeImage(preprocessed, previousDirectory() + "Out/processed" +
                     new File(previousDirectory() + "Out/").listFiles().length);
 
