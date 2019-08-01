@@ -38,7 +38,9 @@ public class Analyzer {
         for (BufferedImage trialImage : images) {
             rater = new Rater(trialImage);
             Point rating = rater.getRating();
+            if (rating == null) continue;
             ratings.add(rating);
+            System.out.println(ratings);
         }
     }
 
@@ -84,7 +86,6 @@ public class Analyzer {
                 BufferedImage bImage = ImageIO.read(image);
 
                 if (bImage.getHeight() > screenHeight / 2) {
-
                     analyzer.addImage(resize(bImage, (int) (screenHeight / 2), (int) (bImage.getWidth() / (bImage.getHeight() / (screenHeight / 2)))));
                 } else {
                     analyzer.addImage(ImageIO.read(image));
@@ -109,5 +110,4 @@ public class Analyzer {
         }
         return path.toString().trim();
     }
-
 }
